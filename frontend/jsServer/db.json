@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Eduardo Valdes Inerarte",
+      "email": "edd@hbdl.com",
+      "tounge": "es",
+      "sex": "M",
+      "program_languages": [
+        "PHP","nodejs","c++"
+      ],
+      "nationalities": [
+        "Cuban"
+      ],
+      "projects": [
+        "Project 1","Project 2","Project 3"
+      ],
+      "team": "Rebel Penguin",
+      "role": "Frontend Developer",
+      "oficce_location":"GiG Copenhagen",
+      "age":"32",
+      "fav_movie": "The god father",
+      "os": [
+        "Mac OS","Linux","Window"
+      ]
+    }
+  ],
+  "project": [
+    {
+      "languages": "PHP",
+      "name": "Rage",
+      "vertical": "",
+      "hosting _rovider": " Digital Ocean",
+      "services": "none",
+      "jira": "Company Jira"
+    }
+  ]
+
+
+}
