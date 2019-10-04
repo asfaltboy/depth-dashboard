@@ -22,24 +22,24 @@ if __name__ == '__main__':
 
 '''
 {
-  "User": [
+  "User": [ NODE
     {
-      "Name": '',
-      "Email": '',
-      "Tounge": '',
-      "Sex": '',
-      "Program_languages": '',
-      "Nationalities": '',
-      "Projects": '',
-      "Team": '',
-      "Role": '',
-      "Oficce_location": '',
-      "Age": '',
+      "Name": '', propertie
+      "Email": '', properties
+      "Tounge": '', propertie
+      "Sex": '', label
+      "Program_languages": '', properties
+      "Nationalities": '', node
+      "Projects": '', node
+      "Team": '', relation
+      "Role": '', node
+      "Oficce_location": '', 
+      "Age": '', label
       "Fav_movie": '',
-      "OS": '',
+      "OS": '', label
     }
   ],
-  "Project": [
+  "Project": [ NODE
     {
       "Languages": '',
       "Name": '',

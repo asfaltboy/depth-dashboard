@@ -9,29 +9,24 @@ from neo4j import GraphDatabase
 
 driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "admin"))
 
-def add_user(tx, data):
-
-    tx.run(
-        statement="CREATE (x) SET x = {dict_param}",
-        parameters={'dict_param': data}
-    )
-
-def add_friend(tx, name, friend_name):
-    tx.run("MERGE (a:Person {name: $name}) "
-           "MERGE (a)-[:KNOWS]->(friend:Person {name: $friend_name})",
-           name=name, friend_name=friend_name)
-
-def print_friends(tx, name):
-    for record in tx.run("MATCH (a:Person)-[:KNOWS]->(friend) WHERE a.name = $name "
-                         "RETURN friend.name ORDER BY friend.name", name=name):
-        print(record["friend.name"])
-
-#graph = Graph("http://localhost:7474/db/data/", user="neo4j", password="admin")
 test_data = {
     "name":"John14",
     "nationality":"Anywhere2",
     "team":"ABCD"
 }
+
+def add_user(tx, data):
+    tx.run(
+        statement="CREATE (x) SET x = {dict_param}",
+        parameters={'dict_param': data}
+    )
+
+
+def add_relations(tx, name):
+    for record in tx.run("MATCH (a:Person)-[:KNOWS]->(friend) WHERE a.name = $name "
+                         "RETURN friend.name ORDER BY friend.name", name=name):
+        print(record["friend.name"])
+
 
 with driver.session() as session:
     session.write_transaction(add_user, test_data)
