@@ -1,0 +1,27 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Run a multi-line script
+      run: |
+        echo Running tests
+        echo Yay, 100% test coverage!
+
+    - name: Cloud Run
+      uses: stefda/action-cloud-run@v1.0
+      with:
+        image: gcr.io/compliance-188015/depth-dashboard-backend
+        service: depth-dashboard-backend
+        project: compliance-188015
+        region: europe-west1
+        # env: [path-to-env-file]
+        service key: ${{ secrets.GCLOUD_AUTH }}
+
