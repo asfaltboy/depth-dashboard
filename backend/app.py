@@ -1,15 +1,18 @@
 from flask import Flask
-import request
+from flask import request
+import json
 
 app = Flask(__name__)
 
 @app.route('/api/users')
 def users():
     user_data = request.get_json()
+    print(user_data)
+    return json.dumps({'success': True}), 200, {'ContentType': 'application/json'}
 
 @app.route('/api/project')
 def projects():
-    project_data = request.get_json()
+    project_data = request.json()
 
 
 
