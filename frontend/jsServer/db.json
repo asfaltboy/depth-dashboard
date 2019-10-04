@@ -1,40 +1,464 @@
 {
   "user": [
     {
-      "id": 1,
-      "name": "Eduardo Valdes Inerarte",
-      "email": "edd@hbdl.com",
-      "tounge": "es",
-      "sex": "M",
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f29c5932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
       "program_languages": [
-        "PHP","nodejs","c++"
+        "sadas"
       ],
       "nationalities": [
-        "Cuban"
+        "sadasda"
       ],
       "projects": [
-        "Project 1","Project 2","Project 3"
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
       ],
-      "team": "Rebel Penguin",
-      "role": "Frontend Developer",
-      "oficce_location":"GiG Copenhagen",
-      "age":"32",
-      "fav_movie": "The god father",
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "12",
+      "fav_movie": "cx cdasd",
       "os": [
-        "Mac OS","Linux","Window"
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f229c5932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "87",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-71353f29c5932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "65",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f429c5932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "12",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f29c55932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "32",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f29c35932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "12",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f29c51932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "76",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f29c55932",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "17",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
+      ]
+    },
+    {
+      "id": "b2f87fe0-e690-11e9-bcdf-7153f29c59382",
+      "name": "uhdiuh",
+      "email": "hbsakd@kjsaba.es",
+      "tounge": "sadasd",
+      "sex": {
+        "id": 2,
+        "name": "Famale"
+      },
+      "program_languages": [
+        "sadas"
+      ],
+      "nationalities": [
+        "sadasda"
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "languages": "PHP",
+          "name": "Rage",
+          "vertical": "",
+          "hosting": " Digital Ocean",
+          "services": "none",
+          "jira": "Company Jira"
+        },
+        {
+          "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+          "name": "Comply",
+          "vertical": "sdasda",
+          "hosting": "asasdas",
+          "services": "asdasda",
+          "jira": "asdasdas"
+        }
+      ],
+      "team": "ascasdas",
+      "role": "sdasds",
+      "age": "92",
+      "fav_movie": "cx cdasd",
+      "os": [
+        {
+          "id": 1,
+          "name": "Linux"
+        },
+        {
+          "id": 3,
+          "name": "Mac OS"
+        }
       ]
     }
   ],
   "project": [
     {
+      "id": 1,
       "languages": "PHP",
       "name": "Rage",
       "vertical": "",
-      "hosting _rovider": " Digital Ocean",
+      "hosting": " Digital Ocean",
       "services": "none",
       "jira": "Company Jira"
+    },
+    {
+      "id": "50570c10-e68d-11e9-8129-15590ff285b6",
+      "name": "Comply",
+      "vertical": "sdasda",
+      "hosting": "asasdas",
+      "services": "asdasda",
+      "jira": "asdasdas"
     }
   ]
-
-
 }

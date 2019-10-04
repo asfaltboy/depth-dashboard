@@ -8,15 +8,17 @@
             <v-spacer></v-spacer>
         </v-app-bar>
 
-      <div class="pa-5">
-        <router-view/>
-      </div>
+        <v-container class="mt-10">
+            <v-layout wrap>
+                <router-view/>
+            </v-layout>
+        </v-container>
 
     </v-app>
 </template>
 
 <script>
-     export default {
+    export default {
         name: 'App',
     };
 </script>
