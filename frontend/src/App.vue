@@ -1,0 +1,22 @@
+<template>
+    <v-app>
+        <v-app-bar app>
+            <v-toolbar-title class="headline text-uppercase">
+                <span>DEPTH - </span>
+                <span class="font-weight-light">Dashboard</span>
+            </v-toolbar-title>
+            <v-spacer></v-spacer>
+        </v-app-bar>
+
+      <div class="pa-5">
+        <router-view/>
+      </div>
+
+    </v-app>
+</template>
+
+<script>
+     export default {
+        name: 'App',
+    };
+</script>
