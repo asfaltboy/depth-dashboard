@@ -1,3 +1,5 @@
+import os
+
 #from neo4j import GraphDatabase
 
 #from neo4j.v1 import GraphDatabase, basic_auth
@@ -7,7 +9,12 @@
 
 from neo4j import GraphDatabase
 
-driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "admin"))
+
+NEO4J_USER = os.getenv('NEO4J_USER', "neo4j")
+NEO4J_PASS = os.getenv('NEO4J_PASS', "admin")
+NEO4J_URI = os.getenv('NEO4J_URI', "bolt://localhost:7687")
+
+driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASS))
 
 test_data = {
     "name":"John14",
