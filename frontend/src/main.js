@@ -6,6 +6,8 @@ import vuetify from './plugins/vuetify';
 import Vuetify from 'vuetify'
 import Chartkick from 'vue-chartkick'
 import Chart from 'chart.js'
+import "material-design-icons-iconfont/dist/material-design-icons.css";
+
 
 Vue.use(Chartkick.use(Chart))
 Vue.use(Vuetify)

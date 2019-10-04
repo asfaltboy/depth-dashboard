@@ -2,7 +2,7 @@
     <v-form v-model="valid">
         <v-container>
             <v-card>
-                <v-card-title class="primary">
+                <v-card-title class="">
                     Create a new user
                 </v-card-title>
                 <v-card-text>
@@ -249,7 +249,8 @@
                 };
                 this.$store.dispatch("postUser", user).then(() => {
                     this.$refs.form.reset()
-                }).catch((error) => {
+                    this.init()
+                },this).catch((error) => {
                     console.log(error)
                 })
             }

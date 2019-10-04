@@ -1,8 +1,7 @@
 <template>
     <v-form v-model="valid">
-        <v-container>
-            <v-card>
-                <v-card-title class="primary">
+             <v-card>
+                <v-card-title class="">
                     Create a new project
                 </v-card-title>
                 <v-card-text>
@@ -101,15 +100,8 @@
                         Create Project
                     </v-btn>
                 </v-card-actions>
-
             </v-card>
-
-
-
-
-
-        </v-container>
-    </v-form>
+     </v-form>
 </template>
 
 <script>
